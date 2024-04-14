@@ -4,16 +4,19 @@
 using namespace std;
 
 int main (){
-    long cotizacionReal = 0;
-    long pesos = 0;
-    long conversionFinal;
+    //declaro variables
+    long cotizacionReal, pesos, conversionFinal;
+
+    //solicito datos al usuario
     cout<<"ingrese la cotizacion actual del real en pesos argentinos"<<endl;
     cin>>cotizacionReal;
     cout<<"indique ahora la cantidad de pesos a convertir a reales"<<endl;
     cin>>pesos;
 
+    //calculo
      conversionFinal = pesos*cotizacionReal;
 
+    //muestro resultados
     cout<< "La cantidad de pesos a convertir es: " << pesos <<endl;
     cout<< "que a precio de reales equivale a: " << conversionFinal <<endl;
 

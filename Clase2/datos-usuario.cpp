@@ -5,17 +5,23 @@
 using namespace std;
 
 int main() { 
-     string nombre,apellido, direccion, localidad, provincia, pais;
-     int telefono;  
+    //declaro variables
+     string nombre,apellido, direccion, localidad, provincia, pais, telefono;
+     int edad, altura;
        
+    //solicito dqatos al usuario   
     cout <<"Ingrese su nombre: "<<endl;
     cin >> nombre;
     
     cout <<"Ingrese su apellido: "<<endl;
     cin >> apellido;
+
+    cout <<"Ingrese su edad: "<<endl;
+    cin >> edad;
     
-    cout <<"Ingrese su direccion: "<<endl;
+    cout <<"Ingrese calle donde vive y luego la altura: "<<endl;
     cin >> direccion;
+    cin >> altura;
     
     cout <<"Ingrese su localidad: "<<endl;
     cin >> localidad;
@@ -28,11 +34,14 @@ int main() {
     
     cout <<"Ingrese su telefono: "<<endl;
     cin >> telefono;
-    
+
+
+    //muestro resultados ingresados
     cout<<"Usted completo"<<endl;
     cout<<"Nombre: "<<nombre<<endl;
     cout<<"Apellido: "<<apellido<<endl;
-    cout<<"Direccion: "<<direccion<<endl;
+    cout<<"Edad: "<<edad<<endl;
+    cout<<"Direccion: "<<direccion<< " " <<altura<<endl;
     cout<<"Localidad: "<<localidad<<endl;
     cout<<"Provincia: "<<provincia<<endl;
     cout<<"Pais: "<<pais<<endl;
