@@ -5,7 +5,11 @@ using namespace std;
 
 int main() {
 //declaro variables 
-float lados, altura, perimetro, area;
+float lados = 0;
+float altura = 0;
+float perimetro = 0;
+float area = 0;
+
 //solicito datos al usuario
 cout<<"Ingrese la medida de los lados del triangulo equilatero"<<endl;
 cin>>lados;

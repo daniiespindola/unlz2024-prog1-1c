@@ -6,7 +6,8 @@ using namespace std;
 int main() { 
     //declaro variables
 	const float velSonido = 343;
-	float segundos, metros;
+	float segundos = 0;
+    float metros;
 	
     //solicito datos al usuario
     cout <<" Ingrese segundos transcurridos entre el relampago y el trueno " << endl;

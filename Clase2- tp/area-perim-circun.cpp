@@ -6,7 +6,9 @@ using namespace std;
 int main() {
 //declaro variables 
 const double pi=3.14152;
-float radio, perimetro, area;
+float radio = 0;
+float perimetro = 0; 
+float area = 0;
 //solicito datos al usuario
 cout<<"Ingrese el radio de la circunferencia"<<endl;
 cin>>radio;
