@@ -24,11 +24,9 @@ int main() {
     cin >> altura;
 
     cout << "Ingrese su localidad: " << endl;
-    cin.ignore();
     getline(cin, localidad);
 
-    cout << "Ingrese su provincia: " << endl;
-    cin.ignore(); 
+    cout << "Ingrese su provincia: " << endl; 
     getline(cin, provincia);
 
     cout << "Ingrese su país de origen: " << endl;
