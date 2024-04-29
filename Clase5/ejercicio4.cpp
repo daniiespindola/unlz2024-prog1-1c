@@ -10,6 +10,7 @@ int main() {
 int num = 0;
 int numSecreto = 33;
 
+//mediante while se le pide al usuario ingresar datos
 while (num != numSecreto)
 {
     cout << "ADIVINE EL NUMERO SECRETO, ES UN NUMERO ENTERO ENTRE EL 1 Y EL 100" << endl;
@@ -21,4 +22,4 @@ cout << "Ha ganado el numero secreto era " << num << endl;
 
 return 0;
 
-}
+} 
