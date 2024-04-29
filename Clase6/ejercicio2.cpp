@@ -17,6 +17,8 @@ int main() {
 	int num = 0;
 	int contadorPar = 0;
 	int contadorImpar = 0;
+	int sumaPares = 0;
+	int sumaImpares = 0;
 	
 	//uso ciclo do while 
 	do{
@@ -27,11 +29,13 @@ int main() {
 		if (num !=0){
 		if (num%2==0){
 			contadorPar++;
+			sumaPares = num + sumaPares;
 			//cout << "impares ingresados " << contadorImpar << " y pares ingresados " << contadorPar  << endl;
 		}
 	
 		else {
 			contadorImpar++; 
+			sumaImpares = num + sumaImpares;
 		//	cout << "impares ingresados " << contadorImpar << " y pares ingresados " << contadorPar  << endl;
 		}
 		}	
@@ -40,6 +44,7 @@ int main() {
 	
 	//muestro resultados por pantalla
 	cout << "impares ingresados " << contadorImpar << " y pares ingresados " << contadorPar  << endl;
+	cout << "la suma de los impares ingresados es  " << sumaImpares << " y la suma de los pares ingresados es " << sumaPares << endl;
 	cout << "Ingreso 0 finalizo el programa" << endl;
 	
 
