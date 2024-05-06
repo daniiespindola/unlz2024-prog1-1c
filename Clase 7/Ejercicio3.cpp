@@ -24,6 +24,10 @@ int main() {
 		for( int j = 0 ; j < nombres [i].lenght() ; j++){
 			//accedemos a cada uno de los caracteres de la palabra almacenada
 			cout << nombres [i][j] << endl;
+			if (nombres [i][j] == 'b' || nombres [i][j] == 'B'){
+				cout << "tiene una b" << endl ;
+				break;
+			}
 		}
 		
 	}
