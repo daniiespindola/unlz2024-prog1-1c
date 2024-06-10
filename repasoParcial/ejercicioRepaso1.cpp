@@ -55,7 +55,7 @@ int seleccion(){
 	
 }
 
-int main(){
+int ordenarArray(){
 
 	const int cantidad = 5;
 	int valoresArray [cantidad];
@@ -93,6 +93,36 @@ int main(){
     }
     
     return 0;
+}
+
+int main (){
+	//invertir un array
+	
+	const int cantidad = 5;
+	int valoresArray [cantidad];
+	
+	//se pide cargar el array
+	for(int i = 0; i < cantidad; i ++){
+		cout << "Ingrese de a uno los valores del array: " << endl;
+		cin >> valoresArray [i];
+	}
+	
+	//se muestra valores guardados
+	for(int i = 0; i < cantidad; i ++){
+		cout << valoresArray [i] << " | " ;
+	
+	}
+	
+	cout << "Los valores invertidos: " << endl;
+	//se muestra valores guardados
+	for(int i = cantidad - 1; i >= 0; i --){
+		cout << valoresArray [i] << " | " ;
+	
+	}
+	
+	
+	
+	return 0;
 }
 
 
